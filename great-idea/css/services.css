@@ -143,8 +143,20 @@ h1{
     border: 1px solid black;
     width: 48%;
     margin: 1% 0;
-    padding: 3%
+    padding: 3%;
 }
 
 /**styling this so far has been a huge aha moment and encouraging experience even though my timing was messed up. I'm feeling so much more prepared heading into sprint**/
+
+.section3div button{
+    margin: 3% 0;
+    width: 35%;
+    border: solid black 1px;
+    border-radius: .30rem;
+    padding: 1% 0;
+}
+
+
+
+
 
