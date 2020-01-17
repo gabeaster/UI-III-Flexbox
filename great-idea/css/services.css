@@ -123,3 +123,28 @@ hr{
     flex-direction:column;
     padding: 3% 0;
 }
+
+h1{
+    font-size:140%;
+}
+
+
+/** section 3 flex wrap boxes **/
+
+.section3boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: space-between;
+}
+
+.section3boxes div{
+    border: 1px solid black;
+    width: 48%;
+    margin: 1% 0;
+    padding: 3%
+}
+
+/**styling this so far has been a huge aha moment and encouraging experience even though my timing was messed up. I'm feeling so much more prepared heading into sprint**/
+
