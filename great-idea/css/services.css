@@ -158,5 +158,52 @@ h1{
 
 
 
+#hrbold{
+    background-color: black;
+    height: 5px;
+    border: solid 1px black;
+}
 
 
+/** section 4 styling **/
+
+.section4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#somefacts{
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    padding: 3% 0;
+}
+
+#somefacts p{
+    padding: 5% 0;
+}
+
+/**section4 list styling**/
+
+#somefacts ul{
+    width: 100%;
+}
+
+#somefacts ul li{
+    padding: 3%;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.services-info-img{
+    width: 50%;
+    height: auto;
+    padding: 3% 0;
+}
+
+/**footer styling**/
+
+footer{
+    text-align:center;
+}
