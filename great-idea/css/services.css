@@ -106,3 +106,20 @@ hr{
 	width: 28%;
 }
 
+/** section 2 image and services description styling*/ 
+
+
+.section2{
+    display:flex;
+    flex-direction:column;
+}
+.section2 img{
+    width: 100%;
+    height: auto;
+}
+
+#services{
+    display:flex;
+    flex-direction:column;
+    padding: 3% 0;
+}
