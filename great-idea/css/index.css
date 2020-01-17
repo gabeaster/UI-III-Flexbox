@@ -106,7 +106,7 @@ hr{
 
 
 .section2{
-	display: inline-block;
+	display: flex;
 	width: 100%;
 
 
@@ -114,7 +114,6 @@ hr{
 
 
 #h1andbutton{
-	display: inline-block;
 	width:65%;
 	margin: 0% 2%;
 	padding: 5% 0;
@@ -137,7 +136,6 @@ hr{
 
 
 #imgbox{
-	display: inline-block;
 	width: 30%;
 	padding: 5%;
 }
