@@ -153,3 +153,33 @@ hr{
 	text-align: center;
 }
 
+/*services.html additional styling starts here*/
+
+/*sectionBoxes styling here*/
+.sectionBoxes{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 98%;
+	margin: 3% 0;
+}
+
+.box{
+	border: 1px black solid;
+	display: flex;
+	flex-direction: column;
+	width: 48%;
+	padding: 2%;
+}
+
+.box button{
+	max-width: 35%;
+	border: 1px solid black;
+	border-radius: 10%;
+	padding: 2% 4%;
+}
+
+
+
+
+
