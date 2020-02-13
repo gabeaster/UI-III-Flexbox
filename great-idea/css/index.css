@@ -52,7 +52,7 @@ table {
 * {
 	box-sizing: border-box;
 	max-width: 100%;
-	margin: 2% 0;
+	margin: 1.8% 0;
  }
 
 html, body {
@@ -129,6 +129,7 @@ header img{
 
 hr{
 	border: 1px solid black;
+	width: 98%;
 }
 
 
@@ -140,35 +141,15 @@ hr{
 	max-width: 98%;
 }
 
-/* section 4 image banner stylling */
-.section4{
-}
+/* img banner styling */
 .middle-img{
+	justify-content: center;
+	width: 98%;
 }
 
-/* section 5 services product and vision styling*/
+/*section 3 services products and vision styling*/
 
-.section5{
-
-}
-
-
-#services{
-	width: 33%;
-}
-
-#product{
-	width: 33%;
-}
-
-#vision{
-	width: 33%;
-}
-
-/* section 6 and footer contact styling */
-
-
-
-footer{
-	text-align: center;
+.section3{
+	display:flex;
+	justify-content: space-between;
 }
