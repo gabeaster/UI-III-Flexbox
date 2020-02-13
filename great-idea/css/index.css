@@ -19,10 +19,10 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	/*border: 0;*/
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;
+	vertical-align: middle;
 }
 /* HTML5 display-role reset for older browsers */
 article, aside, details, figcaption, figure, 
@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container{
+	margin: 3% 5%;
 }
 
 hr{
@@ -74,21 +75,23 @@ hr{
 }
 
 /**navigation styling**/
-.navigation{
-	width: 100%;
-}
 
+header{
+	display: flex;
+	justify-content: space-between;
+}
 #nav-content{
-	width: 73%;
+	width: 78%;
+	display: flex;
+	justify-content: space-around;
 }
 
 #nav-content a{
 	color: gray;
 	justify-content: space-between;
-	padding: 2% 5%;
 }
 
-.logodiv{
+header img{
 	width: 20%;
 }
 
