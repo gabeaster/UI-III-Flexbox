@@ -83,7 +83,7 @@ header{
 	align-items: center;
 }
 #nav-content{
-	width: 78%;
+	width: 70%;
 	display: flex;
 	justify-content: space-between;
 }
@@ -94,7 +94,7 @@ header{
 	text-decoration: none;
 }
 
-header img{
+header a{
 	width: 20%;
 }
 
@@ -154,6 +154,11 @@ hr{
 }
 
 /*services.html additional styling starts here*/
+
+/*sectionServices styling*/
+.sectionServices{
+	margin-bottom: 4%;
+}
 
 /*sectionBoxes styling here*/
 .sectionBoxes{
