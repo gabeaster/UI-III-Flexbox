@@ -32,8 +32,8 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
+/*ol, ul {
+	list-style: none;*/
 }
 blockquote, q {
 	quotes: none;
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5 {
 /* Your code starts here! */
 
 .container{
-	margin: 3% 5%;
+	margin: 0% 5%;
 }
 
 hr{
@@ -134,8 +134,9 @@ hr{
 
 
 /*section 2 features and about styling*/
+/*section 3 services products and vision styling*/
 
-.section2{
+.section2, .section3{
 	display:flex;
 	justify-content: space-between;
 	max-width: 98%;
@@ -147,9 +148,8 @@ hr{
 	width: 98%;
 }
 
-/*section 3 services products and vision styling*/
-
-.section3{
-	display:flex;
-	justify-content: space-between;
+/*contact styling*/
+#copywright{
+	text-align: center;
 }
+
