@@ -85,7 +85,7 @@ header{
 #nav-content{
 	width: 78%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 
 #nav-content a{
@@ -179,7 +179,18 @@ hr{
 	padding: 2% 4%;
 }
 
+/*sectionFacts styling*/
 
+.sectionFacts{
+	display: flex;
+	max-width: 98%;
+	justify-content: space-between;
+	margin-bottom: 5%;
+}
+
+.sectionFacts div{
+	width: 47%;
+}
 
 
 
