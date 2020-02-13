@@ -104,6 +104,7 @@ header img{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
+	margin-bottom: 5%;
 }
 
 .h1andbutton{
@@ -126,21 +127,17 @@ header img{
 	font-family: 'Lato', sans-serif;
 }
 
-
-/*section 3 features and about styling*/
-
-.section3{
+hr{
+	border: 1px solid black;
 }
 
-h3{
-}
 
-#features {
-	width: 49%;
-}
+/*section 2 features and about styling*/
 
-#about{
-	width: 49%;
+.section2{
+	display:flex;
+	justify-content: space-between;
+	max-width: 98%;
 }
 
 /* section 4 image banner stylling */
